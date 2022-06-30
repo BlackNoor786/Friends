@@ -1,0 +1,111 @@
+.unorder {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.unorder li a{
+    display: block;
+   padding: 3px 20px;
+   border-radius: 2px;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+.unorder li a:hover{
+    background-color: white;
+    color: black;
+}
+.navbar {
+        /* background-image: url("https://media0.giphy.com/media/26tOZ42Mg6pbTUPHW/giphy.gif");
+      min-height: 380px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      position: relative; */
+      background-image: url("https://media0.giphy.com/media/26tOZ42Mg6pbTUPHW/giphy.gif");
+      min-height: 380px;
+      background-position: center;
+      position: relative;
+}
+#title-name {
+      font-size: 3rem;
+      margin-top: 7rem;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.904);
+}
+#section-title{
+      font-size: 3rem;
+      margin-top: 2rem;
+      text-align: center;
+      color: black;
+      font-weight: bold;
+}
+  
+#all-box{
+      margin: 34px;
+      display: flex;
+}
+#all-box .box { 
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      /* border: 2px solid brown; */
+      padding: 6px;
+      margin: 2px 55px;
+      border-radius: 10px;
+      /* background: #f2f2f2; */
+      margin-bottom: 20px;
+}
+#all-box .box:hover{
+      -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+}
+
+#all-box .box img{ 
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+  /* #all-box .box img:hover{
+      height: 200px;
+      width: 200px;
+  } */
+
+#all-box .box p{
+      font-size: medium;
+      margin-left: 15px;
+} 
+
+
+
+.notice {
+      position: fixed;
+      bottom: 35px;
+      right: 20px;
+      margin-left: 20px;
+      max-width: 300px;
+}
+
+.notice-header {
+      padding: 5px 15px;
+      background: rgb(240, 34, 34);
+      font-size: 15px;
+      color: white;
+}
+
+.notice-container {
+      padding: 15px;
+      background-color: rgb(167, 35, 215);
+      color: rgb(255, 255, 255)
+}
+
+.close {
+      position: absolute;
+      top: 0.01px;
+      right: 5px;
+      color: white;
+      font-size: 30px;
+      cursor: pointer;
+}
+
+.close:hover {
+      color: lightgrey;
+}
